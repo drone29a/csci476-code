@@ -14,6 +14,12 @@ options {
 	// 	0.0.0.0;
 	// };
 
+        // Uncomment this forwarders directive when running lab on the 
+        // Apporto VM hosted on Amazon Web Services.
+        // forwarders {
+        //      127.0.0.53;
+        // };
+
 	//========================================================================
 	// If BIND logs error messages about the root key being expired,
 	// you will need to update your keys.  See https://www.isc.org/bind-keys
