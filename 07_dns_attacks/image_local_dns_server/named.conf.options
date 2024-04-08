@@ -14,10 +14,9 @@ options {
 	// 	0.0.0.0;
 	// };
 
-        // Uncomment this forwarders directive when running lab on the 
-        // Apporto VM hosted on Amazon Web Services.
+        // Uncomment this forwarders directive to explicitly configure forwarders.
         // forwarders {
-        //      127.0.0.53;
+        //     8.8.8.8; 
         // };
 
 	//========================================================================
